@@ -1,0 +1,45 @@
+/* Configuración global para que todo se vea ordenado */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente legible */
+    line-height: 1.6;               /* Espacio entre líneas para facilitar la lectura */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;      /* Un color de fondo gris muy claro */
+    color: #333;                    /* Color de texto oscuro para buen contraste */
+}
+
+/* Para que el contenido no pegue contra los bordes */
+header, section, footer {
+    max-width: 800px;               /* Ancho máximo para que no se estire demasiado */
+    margin: 20px auto;              /* Centrado automático */
+    padding: 20px;
+    background-color: white;        /* Fondo blanco para las secciones */
+    border-radius: 8px;             /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una sombra suave para dar profundidad */
+}
+
+/* Estilo para los títulos */
+h1, h2 {
+    color: #2c3e50;                 /* Un azul marino elegante */
+    border-bottom: 2px solid #3498db; /* Una línea decorativa debajo */
+    padding-bottom: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;     /* Se subraya cuando pasas el mouse por encima */
+}
+
+/* Para que las imágenes no se salgan de la pantalla */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
